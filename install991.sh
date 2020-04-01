@@ -21,14 +21,14 @@ echo -e "Creating youtube-dl folder for config\n"
 mkdir -p ~/.config/youtube-dl
 
 echo -e "Moving config file"
-dos2unix /data/data/com.termux/files/home/config 
-mv -f /data/data/com.termux/files/home/config /data/data/com.termux/files/home/.config/youtube-dl
+dos2unix /data/data/com.termux/files/home/ydl/config 
+mv -f /data/data/com.termux/files/home/ydl/config /data/data/com.termux/files/home/.config/youtube-dl
  
 echo -e "Creating bin folder\n"
 mkdir ~/bin
  
 echo -e "Downloading and installing termux-url-opener\n"
-mv -f /data/data/com.termux/files/home/termux-url-opener /data/data/com.termux/files/home/bin 
+mv -f /data/data/com.termux/files/home/ydl/termux-url-opener /data/data/com.termux/files/home/bin 
 dos2unix ~/bin/termux-url-opener
 echo -e "\n"
 echo -e "\n"
