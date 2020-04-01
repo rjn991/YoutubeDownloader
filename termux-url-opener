@@ -1,0 +1,30 @@
+#rjn991
+url=$1
+echo "What should I do with $url?"
+echo "1) Download audio in .mp3 format"
+echo "2) Download 360p video"
+echo "3) Download 480p video"
+echo "4) Download 720p video"
+echo "5) Download 1080p video"
+
+read CHOICE
+case $CHOICE in
+	1)
+		youtube-dl -x --audio-format mp3 $url
+		;;
+	2)
+		youtube-dl -f "best[height<=360]" $url
+		;;
+	3)	
+		youtube-dl -f "best[height<=480]" $url
+		;;
+	4)     	
+		youtube-dl -f "best[height<=720]" $url
+		;;
+	5)      
+		youtube-dl -f "best[height<=1080]" $url
+		;;
+esac
+	
+		
+
