@@ -16,9 +16,13 @@ pip install youtube-dl
  
 echo -e "Creating the Youtube folder to download the files\n"
 mkdir ~/storage/shared/Youtube
+
+echo -e "Installing ffmpeg\n"
+apt install ffmpeg
  
 echo -e "Creating youtube-dl folder for config\n"
 mkdir -p ~/.config/youtube-dl
+
 
 echo -e "Moving config file"
 dos2unix /data/data/com.termux/files/home/ydl/config 
@@ -33,4 +37,4 @@ dos2unix ~/bin/termux-url-opener
 echo -e "\n"
 echo -e "\n"
 echo -e "Downloaded Files will be found in Youtube Folder in internal storage \n"
-echo "rjn991"
+echo "By rjn991"
