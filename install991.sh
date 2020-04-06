@@ -32,7 +32,7 @@ mv -f /data/data/com.termux/files/home/ydl/config /data/data/com.termux/files/ho
 echo -e "Creating bin folder\n"
 mkdir ~/bin
  
-echo -e "Downloading and installing termux-url-opener\n"
+echo -e "Installing termux-url-opener\n"
 mv -f /data/data/com.termux/files/home/ydl/termux-url-opener /data/data/com.termux/files/home/bin 
 dos2unix ~/bin/termux-url-opener
 echo -e "\n"
