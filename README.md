@@ -7,3 +7,5 @@ Enter these commands in termux and press 'y' when prompted:
 <code> cd ydl </code><br>
 <code> dos2unix install991.sh </code><br>
 <code> chmod u+x install991.sh;./install991.sh </code>
+
+Now share any playlist or video url to termux choose the download option.
