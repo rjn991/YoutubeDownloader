@@ -8,6 +8,15 @@ echo -e "Requesting acces to storage\n"
 termux-setup-storage
 sleep 5
  
+
+pkg install -y toilet
+pkg install figlet
+
+toilet -f mono12 -F border "rjn991"
+sleep 10
+
+
+
 echo -e "Installing python\n"
 apt install python
  
