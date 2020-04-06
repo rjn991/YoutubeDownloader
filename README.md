@@ -2,7 +2,7 @@
 
 Enter these commands in termux and press 'y' when prompted:
 
-''' pkg install git '''<br>
+<code> pkg install git <code><br>
 <code> git clone https://github.com/rjn991/ydl </code><br>
 <code> cd ydl </code><br>
 <code> dos2unix install991.sh </code><br>
