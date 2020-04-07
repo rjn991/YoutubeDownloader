@@ -26,6 +26,5 @@ case $CHOICE in
 		youtube-dl -f "best[height<=1080]" $url
 		;;
 esac
-	
-		
+sleep 20
 
