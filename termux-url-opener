@@ -1,6 +1,5 @@
 #rjn991
 url=$1
-echo "By rjn991"
 echo "What should I do with $url?"
 echo "1) Download audio in .mp3 format"
 echo "2) Download 360p video"
@@ -26,5 +25,4 @@ case $CHOICE in
 		youtube-dl -f "best[height<=1080]" $url
 		;;
 esac
-sleep 20
 
