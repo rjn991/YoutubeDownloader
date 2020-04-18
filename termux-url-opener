@@ -6,7 +6,6 @@ echo "2) Download 360p video"
 echo "3) Download 480p video"
 echo "4) Download 720p video"
 echo "5) Download 1080p video"
-echo "Enter your choice : "
 read CHOICE
 case $CHOICE in
 	1)
