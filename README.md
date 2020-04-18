@@ -1,5 +1,5 @@
 # ydl
-Download <a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a><br><br>
+Download [termux](https://play.google.com/store/apps/details?id=com.termux)<br>
 Enter these commands in termux and press 'y' when prompted:
 
 <code> pkg install git </code><br>
